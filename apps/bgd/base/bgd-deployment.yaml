@@ -25,4 +25,9 @@ spec:
         - name: COLOR
           value: "green"
         resources: {}
+        securityContext:
+          allowPrivilegeEscalation: false
+          capabilities:
+            drop:
+              - ALL
 ---
