@@ -23,7 +23,7 @@ spec:
         name: bgd
         env:
         - name: COLOR
-          value: "black"
+          value: "blue"
         resources: {}
         securityContext:
           allowPrivilegeEscalation: false
